@@ -1,0 +1,22 @@
+{
+    "name": "onlycjs/blog",
+    "authors": [
+        {
+            "name": "onlycjs",
+            "email": "onlycjs@naver.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.2",
+        "xemlock/htmlpurifier-html5": "^0.1.10"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Gondr\\" : "App/"
+        }
+    },
+    "_comment": [
+        "오토로드 반영을 위해 composer dump-autoload 칠것"
+    ]
+}
